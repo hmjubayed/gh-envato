@@ -1,0 +1,38 @@
+{
+    "name": "jubayed/gh-envato",
+    "description": "gh-envato description",
+    "keywords": [
+        "jubayed",
+        "gh-envato"
+    ],
+    "homepage": "https://github.com/jubayed/gh-envato",
+    "license": "",
+    "type": "addon",
+    "authors": [
+        {
+            "name": "Jubayed Bhuiyan",
+            "email": "support@jubayed.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Jubayed\\GhEnvato\\": "src/",
+            "Jubayed\\GhEnvato\\Seeders\\": "database/seeders/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jubayed\\GhEnvato\\ServiceProvider"
+            ]
+        }
+    }
+}
